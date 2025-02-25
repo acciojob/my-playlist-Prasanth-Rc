@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+.player_one, .player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration-line: none;
+    color: #000;
+}
+
+a:hover {
+    color: #007bff;
+}
